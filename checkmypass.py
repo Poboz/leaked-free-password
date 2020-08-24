@@ -48,4 +48,6 @@ def leaked_count(args):
         else:
             return False
 
-
+        
+if __name__ == '__main__':
+    result(input('Password: ').split())
